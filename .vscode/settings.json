@@ -1,4 +1,11 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda"
+  "ROS2.distro": "jazzy",
+  "python.autoComplete.extraPaths": [
+    "/home/rahul/Documents/codes/robotics/moveit-tut/install/my_robot_interfaces/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/rahul/Documents/codes/robotics/moveit-tut/install/my_robot_interfaces/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ]
 }
